@@ -1,3 +1,26 @@
-.a.navbar-brand {
-    background-image: url("/images/Anna\ test\ logo.png");
+.card-custom {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    align-items: center;
+    
+}
+
+
+.btn {
+    background-color: $success;
+    text-align: center;
+    align: middle; 
+    border: 1px solid coral;
+
+}
+
+.navbar-custom {
+    font-family: 'Lucida Grande'
+
+}
+
+.jumbotron-custom {
+    background-image: url('/images/hero-banner-avatar-1.png');
+    background-repeat: none;
+    background-size: 100%;
+ 
 }
