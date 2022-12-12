@@ -6,7 +6,6 @@
 
 
 .btn {
-    background-color: $success;
     text-align: center;
     align: middle; 
     border: 1px solid coral;
@@ -22,5 +21,6 @@
     background-image: url('/images/hero-banner-avatar-1.png');
     background-repeat: none;
     background-size: 100%;
+    color:  dark grey;
  
 }
