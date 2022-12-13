@@ -23,7 +23,7 @@
 }
 
 .jumbotron-custom {
-    background-image: url('/images/hero-banner-avatar-1.png');
+    background-image: url('images/hero-banner-avatar-1.png');
     background-repeat: none;
     background-size: 100%;
     color:  dark grey;
@@ -31,7 +31,9 @@
     height: 600px;
  
 }
-
+h1,h3,h4,h5 {
+   display: flex
+}
 @media (min-width: 1200px) {
 .container {
     max-width: 1540px!important;
