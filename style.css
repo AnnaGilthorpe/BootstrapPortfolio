@@ -1,39 +1,40 @@
 .card-custom {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    align-items: center;
-    
+    align-items: center;   
 }
-
+/* social icons */
 .social-icons {
     filter: grayscale(1);
 }
+/* button */
 .btn:hover {
     text-align: center;
     vertical-align: middle; 
     box-shadow: 1px 1px 2px 1px rgba(0, 0, 255, .2);
     z-index: 100;
   }
+
+  /* social icons button */
 .btn.social-icons:hover {
     filter: unset;
 }
 
+/* custom nav bar */
 .navbar-custom {
     font-family: 'Lucida Grande'
 
 }
-
+/* custom jumbotron */
 .jumbotron-custom {
     background-image: url('images/hero-banner-avatar-1.png');
     background-repeat: none;
     background-size: 100%;
-    color:  dark grey;
+    color:  white;
     padding: 2rem;
     height: 600px;
  
 }
-h1,h3,h4,h5 {
-   display: flex
-}
+/* media querygit */
 @media (min-width: 1200px) {
 .container {
     max-width: 1540px!important;
