@@ -27,7 +27,7 @@
 /* custom jumbotron */
 .jumbotron-custom {
     background-image: url('images/hero-banner-avatar-1.png');
-    background-repeat: none;
+    /* background-repeat: no-repeat; */
     background-size: 100%;
     color:  white;
     padding: 2rem;
